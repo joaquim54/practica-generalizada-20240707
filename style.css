@@ -3,6 +3,9 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center; /* Centrar horizontalmente */
+  max-width: 600px; /* Ancho máximo del formulario */
+  margin: 0 auto; /* Centrar el formulario en la página */
+  padding: 20px; /* Espaciado interno */
 }
 
 /* Estilo para cada grupo de campos (div.mb-3) */
@@ -23,15 +26,19 @@ label {
   height: 100% !important;
   margin: 0 !important;
   padding: 0 !important;
-  background: transparent !important;
+  background: rgba(0, 0, 0, 0.6) !important; /* Fondo semi-transparente */
   overflow-y: auto !important; /* Permite el desplazamiento vertical si es necesario */
 }
 
 .swal2-modal {
-  width: 100% !important;
-  height: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
+  width: 80% !important; /* Ancho del modal */
+  max-width: 600px; /* Ancho máximo del modal */
+  margin: 10vh auto !important; /* Centrado vertical y horizontal */
+  padding: 20px; /* Espaciado interno */
+  background: #333; /* Color de fondo del modal */
+  color: white; /* Color del texto */
+  border: none; /* Sin borde */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Sombra */
 }
 
 .swal2-title {
@@ -47,9 +54,11 @@ label {
 .swal2-actions {
   display: flex !important;
   justify-content: center !important;
+  margin-top: 20px; /* Espacio encima de los botones */
 }
 
 .swal2-confirm, .swal2-cancel {
   width: 150px !important; /* Ancho de los botones */
   margin: 0 10px !important;
+  font-size: 1.6rem; /* Tamaño de fuente de los botones */
 }

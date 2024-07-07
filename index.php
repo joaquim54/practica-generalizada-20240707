@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div id="container" class="container">
+    <div id="container" class="container-fluid">
         <div class="container text-center">
             <h1 class="h">Iteración de json</h1>
             <div id="mensaje"></div>
