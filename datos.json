@@ -1,0 +1,29 @@
+{
+  "personas": [
+    {
+      "nombre": "Joaquín",
+      "apellido": "Garcés",
+      "edad": 26
+    },
+    {
+      "nombre": "María",
+      "apellido": "López",
+      "edad": 30
+    },
+    {
+      "nombre": "Pedro",
+      "apellido": "Ramírez",
+      "edad": 22
+    },
+    {
+      "nombre": "diego",
+      "apellido": "ruiz",
+      "edad": 22
+    },
+    {
+      "nombre": "Nicolas",
+      "apellido": "yañez",
+      "edad": 225
+    }
+  ]
+}
